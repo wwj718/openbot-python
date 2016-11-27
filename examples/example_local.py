@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# encoding: utf-8
+from __future__ import unicode_literals
 import openbot
 
 CLIENT_ACCESS_TOKEN = "openbot"
@@ -12,6 +15,7 @@ def main():
     response = bot.chat(query)
 
     print(response)
+    #print(response["answer"])
 
 
 if __name__ == '__main__':
